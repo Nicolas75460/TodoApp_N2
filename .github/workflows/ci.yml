@@ -24,4 +24,4 @@ jobs:
             
             - name: Executar os testes unitarios
               run: |
-                python tests/unit
+                pytest tests/unit
